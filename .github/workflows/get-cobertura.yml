@@ -25,10 +25,3 @@ jobs:
 
     - name: Test
       run: dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=cobertura /p:CoverletOutput='Calculator/' /p:IncludeTestAssembly=true
-    - uses: codecov/codecov-action@v1
-      with:
-        files: 'Calculator/coverage.cobertura.xml'
-        flags: unittests 
-        name: codecov-umbrella
-        fail_ci_if_error: true 
-        verbose: true
