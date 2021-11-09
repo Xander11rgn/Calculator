@@ -7,10 +7,11 @@ namespace CalculatorLibrary
 {
     public class Calculator
     {
+        protected StreamWriter logFile;
         JsonWriter writer;
         public Calculator()
         {
-            StreamWriter logFile = File.CreateText("calculatorlog.json");
+            logFile = File.CreateText("calculatorlog.json");
             logFile.AutoFlush = true;
             writer = new JsonTextWriter(logFile);
             writer.Formatting = Formatting.Indented;
@@ -20,6 +21,8 @@ namespace CalculatorLibrary
         }
         public double DoOperation(double num1, double num2, string op)
         {
+            
+
             double result = double.NaN; // Default value is "not-a-number" if an operation, such as division, could result in an error.
             writer.WriteStartObject();
             writer.WritePropertyName("Operand1");
@@ -57,7 +60,6 @@ namespace CalculatorLibrary
             writer.WritePropertyName("Result");
             writer.WriteValue(result);
             writer.WriteEndObject();
-
             return result;
         }
 
@@ -66,6 +68,8 @@ namespace CalculatorLibrary
             writer.WriteEndArray();
             writer.WriteEndObject();
             writer.Close();
+            logFile.Close();
+            logFile.Dispose();
         }
     }
 }
