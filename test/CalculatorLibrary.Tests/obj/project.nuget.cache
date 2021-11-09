@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7OKd9w8Qg1Eh06GHLWLLpwcNyXcm0fnGhEpI/R37WTJxi6AeMGMJgc1yLJcveWTmdAHn/h5LHJv2fG9cicHkug==",
+  "dgSpecHash": "SzOs6alGC+0LNwfSspl4X69RrBuXKvO6xqeUszHTTQS5raxF58VHyaGelrVNwTfPu5dod/inIQT4JgjlcZEZww==",
   "success": true,
-  "projectFilePath": "E:\\ANKO\\C# Fundamentals\\Calculator\\Calculator\\test\\CalculatorLibrary.Tests\\CalculatorLibrary.Tests.csproj",
+  "projectFilePath": "G:\\Calculator\\Calculator\\test\\CalculatorLibrary.Tests\\CalculatorLibrary.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Anton\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
     "C:\\Users\\Anton\\.nuget\\packages\\coverlet.msbuild\\3.1.0\\coverlet.msbuild.3.1.0.nupkg.sha512",

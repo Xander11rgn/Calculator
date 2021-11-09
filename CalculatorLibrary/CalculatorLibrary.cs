@@ -55,6 +55,7 @@ namespace CalculatorLibrary
                     break;
                 // Return text for an incorrect option entry.
                 default:
+                    writer.WriteValue("Unknown");
                     break;
             }
             writer.WritePropertyName("Result");
@@ -65,14 +66,11 @@ namespace CalculatorLibrary
 
         public void Finish()
         {
-            try
-            {
-                writer.WriteEndArray();
-                writer.WriteEndObject();
-                writer.Close();
-                logFile.Close();
-                logFile.Dispose();
-            } catch { }
+            writer.WriteEndArray();
+            writer.WriteEndObject();
+            writer.Close();
+            logFile.Close();
+            logFile.Dispose();
         }
     }
 }

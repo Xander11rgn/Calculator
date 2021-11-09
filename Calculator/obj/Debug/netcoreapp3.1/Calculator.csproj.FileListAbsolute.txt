@@ -16,3 +16,39 @@ E:\ANKO\C# Fundamentals\Calculator\Calculator\Calculator\bin\Debug\netcoreapp3.1
 E:\ANKO\C# Fundamentals\Calculator\Calculator\Calculator\bin\Debug\netcoreapp3.1\CalculatorLibrary.pdb
 E:\ANKO\C# Fundamentals\Calculator\Calculator\Calculator\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 E:\ANKO\C# Fundamentals\Calculator\Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator.csproj.CopyComplete
+G:\ANKO\C# Fundamentals\Calculator\Calculator\Calculator\bin\Debug\netcoreapp3.1\Calculator.exe
+G:\ANKO\C# Fundamentals\Calculator\Calculator\Calculator\bin\Debug\netcoreapp3.1\Calculator.deps.json
+G:\ANKO\C# Fundamentals\Calculator\Calculator\Calculator\bin\Debug\netcoreapp3.1\Calculator.runtimeconfig.json
+G:\ANKO\C# Fundamentals\Calculator\Calculator\Calculator\bin\Debug\netcoreapp3.1\Calculator.runtimeconfig.dev.json
+G:\ANKO\C# Fundamentals\Calculator\Calculator\Calculator\bin\Debug\netcoreapp3.1\Calculator.dll
+G:\ANKO\C# Fundamentals\Calculator\Calculator\Calculator\bin\Debug\netcoreapp3.1\Calculator.pdb
+G:\ANKO\C# Fundamentals\Calculator\Calculator\Calculator\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+G:\ANKO\C# Fundamentals\Calculator\Calculator\Calculator\bin\Debug\netcoreapp3.1\CalculatorLibrary.dll
+G:\ANKO\C# Fundamentals\Calculator\Calculator\Calculator\bin\Debug\netcoreapp3.1\CalculatorLibrary.pdb
+G:\ANKO\C# Fundamentals\Calculator\Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator.csproj.AssemblyReference.cache
+G:\ANKO\C# Fundamentals\Calculator\Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator.GeneratedMSBuildEditorConfig.editorconfig
+G:\ANKO\C# Fundamentals\Calculator\Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator.AssemblyInfoInputs.cache
+G:\ANKO\C# Fundamentals\Calculator\Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator.AssemblyInfo.cs
+G:\ANKO\C# Fundamentals\Calculator\Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator.csproj.CoreCompileInputs.cache
+G:\ANKO\C# Fundamentals\Calculator\Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator.csproj.CopyComplete
+G:\ANKO\C# Fundamentals\Calculator\Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator.dll
+G:\ANKO\C# Fundamentals\Calculator\Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator.pdb
+G:\ANKO\C# Fundamentals\Calculator\Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator.genruntimeconfig.cache
+G:\Calculator\Calculator\Calculator\bin\Debug\netcoreapp3.1\Calculator.exe
+G:\Calculator\Calculator\Calculator\bin\Debug\netcoreapp3.1\Calculator.deps.json
+G:\Calculator\Calculator\Calculator\bin\Debug\netcoreapp3.1\Calculator.runtimeconfig.json
+G:\Calculator\Calculator\Calculator\bin\Debug\netcoreapp3.1\Calculator.runtimeconfig.dev.json
+G:\Calculator\Calculator\Calculator\bin\Debug\netcoreapp3.1\Calculator.dll
+G:\Calculator\Calculator\Calculator\bin\Debug\netcoreapp3.1\Calculator.pdb
+G:\Calculator\Calculator\Calculator\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+G:\Calculator\Calculator\Calculator\bin\Debug\netcoreapp3.1\CalculatorLibrary.dll
+G:\Calculator\Calculator\Calculator\bin\Debug\netcoreapp3.1\CalculatorLibrary.pdb
+G:\Calculator\Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator.csproj.AssemblyReference.cache
+G:\Calculator\Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator.GeneratedMSBuildEditorConfig.editorconfig
+G:\Calculator\Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator.AssemblyInfoInputs.cache
+G:\Calculator\Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator.AssemblyInfo.cs
+G:\Calculator\Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator.csproj.CoreCompileInputs.cache
+G:\Calculator\Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator.csproj.CopyComplete
+G:\Calculator\Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator.dll
+G:\Calculator\Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator.pdb
+G:\Calculator\Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator.genruntimeconfig.cache

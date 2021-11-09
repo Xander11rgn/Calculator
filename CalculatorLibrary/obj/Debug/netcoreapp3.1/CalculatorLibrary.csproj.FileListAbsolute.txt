@@ -8,3 +8,23 @@ E:\ANKO\C# Fundamentals\Calculator\Calculator\CalculatorLibrary\obj\Debug\netcor
 E:\ANKO\C# Fundamentals\Calculator\Calculator\CalculatorLibrary\obj\Debug\netcoreapp3.1\CalculatorLibrary.dll
 E:\ANKO\C# Fundamentals\Calculator\Calculator\CalculatorLibrary\obj\Debug\netcoreapp3.1\CalculatorLibrary.pdb
 E:\ANKO\C# Fundamentals\Calculator\Calculator\CalculatorLibrary\obj\Debug\netcoreapp3.1\CalculatorLibrary.csproj.AssemblyReference.cache
+G:\ANKO\C# Fundamentals\Calculator\Calculator\CalculatorLibrary\bin\Debug\netcoreapp3.1\CalculatorLibrary.deps.json
+G:\ANKO\C# Fundamentals\Calculator\Calculator\CalculatorLibrary\bin\Debug\netcoreapp3.1\CalculatorLibrary.dll
+G:\ANKO\C# Fundamentals\Calculator\Calculator\CalculatorLibrary\bin\Debug\netcoreapp3.1\CalculatorLibrary.pdb
+G:\ANKO\C# Fundamentals\Calculator\Calculator\CalculatorLibrary\obj\Debug\netcoreapp3.1\CalculatorLibrary.csproj.AssemblyReference.cache
+G:\ANKO\C# Fundamentals\Calculator\Calculator\CalculatorLibrary\obj\Debug\netcoreapp3.1\CalculatorLibrary.GeneratedMSBuildEditorConfig.editorconfig
+G:\ANKO\C# Fundamentals\Calculator\Calculator\CalculatorLibrary\obj\Debug\netcoreapp3.1\CalculatorLibrary.AssemblyInfoInputs.cache
+G:\ANKO\C# Fundamentals\Calculator\Calculator\CalculatorLibrary\obj\Debug\netcoreapp3.1\CalculatorLibrary.AssemblyInfo.cs
+G:\ANKO\C# Fundamentals\Calculator\Calculator\CalculatorLibrary\obj\Debug\netcoreapp3.1\CalculatorLibrary.csproj.CoreCompileInputs.cache
+G:\ANKO\C# Fundamentals\Calculator\Calculator\CalculatorLibrary\obj\Debug\netcoreapp3.1\CalculatorLibrary.dll
+G:\ANKO\C# Fundamentals\Calculator\Calculator\CalculatorLibrary\obj\Debug\netcoreapp3.1\CalculatorLibrary.pdb
+G:\Calculator\Calculator\CalculatorLibrary\bin\Debug\netcoreapp3.1\CalculatorLibrary.deps.json
+G:\Calculator\Calculator\CalculatorLibrary\bin\Debug\netcoreapp3.1\CalculatorLibrary.dll
+G:\Calculator\Calculator\CalculatorLibrary\bin\Debug\netcoreapp3.1\CalculatorLibrary.pdb
+G:\Calculator\Calculator\CalculatorLibrary\obj\Debug\netcoreapp3.1\CalculatorLibrary.csproj.AssemblyReference.cache
+G:\Calculator\Calculator\CalculatorLibrary\obj\Debug\netcoreapp3.1\CalculatorLibrary.GeneratedMSBuildEditorConfig.editorconfig
+G:\Calculator\Calculator\CalculatorLibrary\obj\Debug\netcoreapp3.1\CalculatorLibrary.AssemblyInfoInputs.cache
+G:\Calculator\Calculator\CalculatorLibrary\obj\Debug\netcoreapp3.1\CalculatorLibrary.AssemblyInfo.cs
+G:\Calculator\Calculator\CalculatorLibrary\obj\Debug\netcoreapp3.1\CalculatorLibrary.csproj.CoreCompileInputs.cache
+G:\Calculator\Calculator\CalculatorLibrary\obj\Debug\netcoreapp3.1\CalculatorLibrary.dll
+G:\Calculator\Calculator\CalculatorLibrary\obj\Debug\netcoreapp3.1\CalculatorLibrary.pdb

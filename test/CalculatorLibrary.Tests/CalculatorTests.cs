@@ -18,13 +18,6 @@ namespace CalculatorLibrary.Tests
             calculator.Finish();
         }
 
-        [Fact]
-        public void ShouldFinishIfItCans()
-        {
-            Calculator calculator = new Calculator();
-            calculator.Finish();
-        }
-
         [Theory]
         [InlineData(-1,1,"a")]
         [InlineData(0,-5648,"a")]
@@ -53,13 +46,14 @@ namespace CalculatorLibrary.Tests
         [InlineData(423, 69, "m")]
         [InlineData(0, -5648, "m")]
         [InlineData(-554.046, 0.7678, "m")]
-        public void ShouldReturnCorrectResultsForTMul(double value1, double value2, string value3)
+        public void ShouldReturnCorrectResultsForMul(double value1, double value2, string value3)
         {
             double expected = value1 * value2;
             Calculator calculator = new Calculator();
             Assert.Equal(expected, calculator.DoOperation(value1, value2, value3));
             calculator.Finish();
         }
+
 
         [Theory]
         [InlineData(0, -4563, "d")]
@@ -79,6 +73,15 @@ namespace CalculatorLibrary.Tests
         {
             Calculator calculator = new Calculator();
             Assert.Throws<Newtonsoft.Json.JsonWriterException>(() => calculator.DoOperation(value1, value2, value3)); 
+            calculator.Finish();
+        }
+
+        [Theory]
+        [InlineData(453, 41564.14, "z")]
+        public void ShouldReturnCorrectResultsForUnknownOperation(double value1, double value2, string value3)
+        {
+            Calculator calculator = new Calculator();
+            Assert.Equal(Double.NaN, calculator.DoOperation(value1, value2, value3));
             calculator.Finish();
         }
 
@@ -200,6 +203,35 @@ namespace CalculatorLibrary.Tests
                                  "Your option? " + 
                                  "Oh no! An exception occurred trying to do the math. - Details: " +
                                  "Token PropertyName in state Property would result in an invalid JSON object. Path 'Operations[0]'." +
+                                 "------------------------" +
+                                 "Press 'n' and Enter to close the app, or press any other key and Enter to continue: ";
+
+            Assert.Equal(expectedOutput, Regex.Replace(output.ToString(), @"[\r\t\n]+", string.Empty));
+        }
+
+
+        [Fact]
+        public void ShouldBeAbleToRunProgramMainNaN()
+        {
+            Thread.CurrentThread.CurrentCulture = CultureInfo.GetCultureInfo("en-US");
+            var output = new StringWriter();
+            Console.SetOut(output);
+            var input = new StringReader(Double.NaN + Environment.NewLine + "2141" + Environment.NewLine + "d" + Environment.NewLine + "n");
+            Console.SetIn(input);
+
+            Program.Main(new string[] { });
+
+            var expectedOutput = "Console Calculator in C#" +
+                                 "------------------------" +
+                                 "Type a number, and then press Enter: " +
+                                 "Type another number, and then press Enter: " +
+                                 "Choose an operator from the following list:" +
+                                 "a - Add" +
+                                 "s - Subtract" +
+                                 "m - Multiply" +
+                                 "d - Divide" +
+                                 "Your option? " +
+                                 "This operation will result in a mathematical error." +
                                  "------------------------" +
                                  "Press 'n' and Enter to close the app, or press any other key and Enter to continue: ";
 
