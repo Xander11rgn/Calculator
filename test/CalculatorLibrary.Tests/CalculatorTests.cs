@@ -1,5 +1,6 @@
 using System;
 using Xunit;
+using CalculatorProgram;
 
 namespace CalculatorLibrary.Tests
 {
@@ -9,6 +10,7 @@ namespace CalculatorLibrary.Tests
         public void ShouldCreateCalculatorObject()
         {
             Calculator calculator = new Calculator();
+            Assert.NotNull(calculator);
             calculator.Finish();
         }
 
@@ -60,13 +62,21 @@ namespace CalculatorLibrary.Tests
             calculator.Finish();
         }
 
-        /*[Theory]
+        [Theory]
         [InlineData(5, 0, "d")]
         public void ShouldReturnCorrectResultsForDivByZero(double value1, double value2, string value3)
         {
             Calculator calculator = new Calculator();
-            Assert.Throws<DivideByZeroException>(() => calculator.DoOperation(value1, value2, value3)); 
+            Assert.Throws<Newtonsoft.Json.JsonWriterException>(() => calculator.DoOperation(value1, value2, value3)); 
             calculator.Finish();
-        }*/
+        }
+
+        [Fact]
+        public void ShouldBeAbleToCreateProgramClass()
+        {
+            Program program = new Program();
+
+            Assert.NotNull(program);
+        }
     }
 }
