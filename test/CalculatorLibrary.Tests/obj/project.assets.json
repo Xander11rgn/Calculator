@@ -1588,6 +1588,19 @@
           "build/netcoreapp2.1/xunit.runner.visualstudio.props": {}
         }
       },
+      "Calculator/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "CalculatorLibrary": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Calculator.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Calculator.dll": {}
+        }
+      },
       "CalculatorLibrary/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -5693,6 +5706,11 @@
         "xunit.runner.visualstudio.nuspec"
       ]
     },
+    "Calculator/1.0.0": {
+      "type": "project",
+      "path": "../../Calculator/Calculator.csproj",
+      "msbuildProject": "../../Calculator/Calculator.csproj"
+    },
     "CalculatorLibrary/1.0.0": {
       "type": "project",
       "path": "../../CalculatorLibrary/CalculatorLibrary.csproj",
@@ -5701,6 +5719,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Calculator >= 1.0.0",
       "CalculatorLibrary >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.9.4",
       "coverlet.collector >= 3.1.0",
@@ -5743,6 +5762,9 @@
           "projectReferences": {
             "E:\\ANKO\\C# Fundamentals\\Calculator\\Calculator\\CalculatorLibrary\\CalculatorLibrary.csproj": {
               "projectPath": "E:\\ANKO\\C# Fundamentals\\Calculator\\Calculator\\CalculatorLibrary\\CalculatorLibrary.csproj"
+            },
+            "E:\\ANKO\\C# Fundamentals\\Calculator\\Calculator\\Calculator\\Calculator.csproj": {
+              "projectPath": "E:\\ANKO\\C# Fundamentals\\Calculator\\Calculator\\Calculator\\Calculator.csproj"
             }
           }
         }

@@ -1,6 +1,10 @@
 using System;
 using Xunit;
-//using CalculatorProgram;
+using CalculatorProgram;
+using System.Threading;
+using System.Globalization;
+using System.IO;
+using System.Text.RegularExpressions;
 
 namespace CalculatorLibrary.Tests
 {
@@ -71,12 +75,43 @@ namespace CalculatorLibrary.Tests
             calculator.Finish();
         }
 
-        /*[Fact]
-        public void ShouldBeAbleToCreateProgramClass()
+        [Fact]
+        public void ShouldBeAbleToCreateProgramObject()
         {
             Program program = new Program();
-
             Assert.NotNull(program);
-        }*/
+        }
+
+
+        [Fact]
+        public void ShouldBeAbleToRunProgramMain()
+        {
+            Thread.CurrentThread.CurrentCulture = CultureInfo.GetCultureInfo("en-US");
+            var output = new StringWriter();
+            Console.SetOut(output);
+            var input = new StringReader(@"156.15
+                                           -6548.0012
+                                            d
+                                            n");
+            Console.SetIn(input);
+
+            Program.Main(new string[] { });
+
+            var expectedOutput = "Console Calculator in C#" +
+                                 "------------------------" +
+                                 "Type a number, and then press Enter: " +
+                                 "Type another number, and then press Enter: " +
+                                 "Choose an operator from the following list:" +
+                                 "a - Add" +
+                                 "s - Subtract" +
+                                 "m - Multiply" +
+                                 "d - Divide" +
+                                 "Your option? " +
+                                 "Your result: 0.36" +
+                                 "------------------------" +
+                                 "Press 'n' and Enter to close the app, or press any other key and Enter to continue: ";
+
+            Assert.Equal(expectedOutput, Regex.Replace(output.ToString(), @"[\r\t\n]+", string.Empty));
+        }
     }
 }
