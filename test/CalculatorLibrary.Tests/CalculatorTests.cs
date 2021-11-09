@@ -1,6 +1,6 @@
 using System;
 using Xunit;
-using CalculatorProgram;
+//using CalculatorProgram;
 
 namespace CalculatorLibrary.Tests
 {
@@ -71,12 +71,12 @@ namespace CalculatorLibrary.Tests
             calculator.Finish();
         }
 
-        [Fact]
+        /*[Fact]
         public void ShouldBeAbleToCreateProgramClass()
         {
             Program program = new Program();
 
             Assert.NotNull(program);
-        }
+        }*/
     }
 }
