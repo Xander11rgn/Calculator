@@ -22,8 +22,11 @@ jobs:
     - name: Build
       run: dotnet build --no-restore
     - name: Test
-      run: dotnet test --collect:"XPlat Code Coverage"
-    - name: Upload a Build Artifact
-      uses: actions/upload-artifact@v2.2.4
+      run: dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=opencover /p:CoverletOutput=TestResults/
+    - uses: codecov/codecov-action@v1
       with:
-        path: './'
+        files: ./test/CalculatorLibrary.Tests/TestResults/coverage.opencover.xml
+        flags: unittests 
+        name: codecov-umbrella
+        fail_ci_if_error: true 
+        verbose: true
