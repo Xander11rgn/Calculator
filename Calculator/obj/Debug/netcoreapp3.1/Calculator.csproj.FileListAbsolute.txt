@@ -15,3 +15,4 @@ E:\ANKO\C# Fundamentals\Calculator\Calculator\Calculator\obj\Debug\netcoreapp3.1
 E:\ANKO\C# Fundamentals\Calculator\Calculator\Calculator\bin\Debug\netcoreapp3.1\CalculatorLibrary.dll
 E:\ANKO\C# Fundamentals\Calculator\Calculator\Calculator\bin\Debug\netcoreapp3.1\CalculatorLibrary.pdb
 E:\ANKO\C# Fundamentals\Calculator\Calculator\Calculator\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+E:\ANKO\C# Fundamentals\Calculator\Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator.csproj.CopyComplete

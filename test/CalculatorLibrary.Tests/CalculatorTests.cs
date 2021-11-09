@@ -18,6 +18,13 @@ namespace CalculatorLibrary.Tests
             calculator.Finish();
         }
 
+        [Fact]
+        public void ShouldFinishIfItCans()
+        {
+            Calculator calculator = new Calculator();
+            calculator.Finish();
+        }
+
         [Theory]
         [InlineData(-1,1,"a")]
         [InlineData(0,-5648,"a")]

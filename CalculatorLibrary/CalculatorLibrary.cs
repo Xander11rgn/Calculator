@@ -65,11 +65,14 @@ namespace CalculatorLibrary
 
         public void Finish()
         {
-            writer.WriteEndArray();
-            writer.WriteEndObject();
-            writer.Close();
-            logFile.Close();
-            logFile.Dispose();
+            try
+            {
+                writer.WriteEndArray();
+                writer.WriteEndObject();
+                writer.Close();
+                logFile.Close();
+                logFile.Dispose();
+            } catch { }
         }
     }
 }
