@@ -89,10 +89,7 @@ namespace CalculatorLibrary.Tests
             Thread.CurrentThread.CurrentCulture = CultureInfo.GetCultureInfo("en-US");
             var output = new StringWriter();
             Console.SetOut(output);
-            var input = new StringReader(@"156.15
-                                           -6548.0012
-                                            d
-                                            n");
+            var input = new StringReader("156.15" + Environment.NewLine + "-6548.0012" + Environment.NewLine + "d" + Environment.NewLine + "n");
             Console.SetIn(input);
 
             Program.Main(new string[] { });
@@ -107,7 +104,7 @@ namespace CalculatorLibrary.Tests
                                  "m - Multiply" +
                                  "d - Divide" +
                                  "Your option? " +
-                                 "Your result: 0.36" +
+                                 "Your result: -0.02" +
                                  "------------------------" +
                                  "Press 'n' and Enter to close the app, or press any other key and Enter to continue: ";
 
