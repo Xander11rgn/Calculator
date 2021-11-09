@@ -27,4 +27,4 @@ jobs:
     - name: Build
       run: dotnet build
     - name: create
-      run: dotnet test Calculator/test/CalculatorLibrary.Tests/CalculatorLibrary.Tests.csproj —collect:"XPlat Code Coverage"
+      run: dotnet test Calculator/test/CalculatorLibrary.Tests/CalculatorLibrary.Tests.csproj —collect:XPlat Code Coverage
