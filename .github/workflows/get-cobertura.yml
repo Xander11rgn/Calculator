@@ -24,11 +24,4 @@ jobs:
       run: dotnet build --no-restore
 
     - name: Test
-      run: dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=opencover /p:CoverletOutput=TestResults/
-    - uses: codecov/codecov-action@v1
-      with:
-        files: ./test/CalculatorLibrary.Tests/TestResults/coverage.opencover.xml
-        flags: unittests 
-        name: codecov-umbrella
-        fail_ci_if_error: true 
-        verbose: true
+      run: dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=cobertura
